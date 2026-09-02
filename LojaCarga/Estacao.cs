@@ -1,0 +1,7 @@
+﻿
+namespace LojaCarga
+{
+    class Estacao
+    {
+    }
+}
