@@ -1,6 +1,6 @@
 ﻿using LojaCarga;
 
-Console.WriteLine("=== SISTEMA DE RECARGA===");
+Console.WriteLine("=== SISTEMA DE RECARGA ===");
 Console.WriteLine();
 
 // 1. Instanciando o objeto da classe
@@ -24,5 +24,5 @@ Console.WriteLine("\n--- COMPROVANTE DE SESSÃO ---");
 Console.WriteLine($"Cliente: {carga.Motorista.Trim().ToUpper()}");
 Console.WriteLine($"Carga Faltante: {carga.CalcularKWNecessarios():F1} kWh");
 Console.WriteLine($"Tempo Estimado: {carga.CalcularTempoHoras():F2} hora(s)");
-Console.WriteLine($"Valor a Pagar: R$ {carga.CalcularTotal():N2}");
+Console.WriteLine($"Valor a Pagar: R$ {carga.CalcularValor():N2}");
 Console.WriteLine($"Sessão Super-Rápida? {carga.CarregamentoRapido()}");
